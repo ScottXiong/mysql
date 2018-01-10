@@ -8,14 +8,14 @@
 
 ### 查询库表和版本信息
 SQL| 作用
-|:-:|:-:|
+|:-|:-|
 SELECT USER() |得到登录的用户
 SELECT VERSION() |得到MYSQL的版本信息
 SELECT NOW()| 得到当前的日期
 SELECT DATABASE() |得到当前打开的数据库
 ### 数据库相关操作
 Action|SQL SENTENCE|eg|Attentions
-|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|
 创建数据库|CREATE {DATABASE\|SCHEMA} db_name;|create database test1;create schema test2;|数据库名最好有意义，名称不要含特殊字符或mysql关键字create database \`database\`
 查询当前数据库|SHOW DATABASES;SHOW SCHEMAS;|||
 查看上个语句产生的警告信息|SHOW WARNINGS;|||
@@ -59,7 +59,7 @@ sex ENUM('男','女','保密')
      3，日期时间类型
  ```
 Action|SQL SENTENCE|eg|Attentions
-|:-:|:-:|:-:|:-:|
+|:-|:-|:-|:-|
 查看表|SHOW TABLES;SHOW FILL TABLES FROM/IN mysql;|||
 查看表结构|SHOW COLUMN FROM user;|||
 查看指定表的详细信息|SHOW CREATE TABLE tbl_name;|||
