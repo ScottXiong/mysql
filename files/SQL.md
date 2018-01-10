@@ -14,5 +14,6 @@ Action|SQL SENTENCE|eg|Attentions
 查看上个语句产生的警告信息|SHOW WARNINGS;|||
 创建数据库的同时检测，没有则创建|CREATE DATABASE IF NOT EXISTS test1||
 创建数据库的同时指定编码|CREATE DATABASE {IF NOT EXISTS} db_name DEFAULT CHARACTER SET [=] \`charset\`|CREATE DATABASE IF NOT EXISTS tets2 CHARACTER SET \`UTF8\`;CREATE DATABASE IF NOT EXISTS tets3 CHARACTER SET = \`GBK\`|DEFAULT&= 可以省略|
-查看指定数据库的详细信息|SHOW CREATE DATABASE db_name|||
+查看指定数据库的详细信息(编码)|SHOW CREATE DATABASE db_name|||
+修改指定数据库的编码方式|ALTER DATABASE db_name DEFAULT CHARACTER SET [=] charset|ALTER DATABASE mysql CHARACTER SET \`UTF8\`;|{}内表可选|
 
