@@ -38,8 +38,16 @@ Action|SQL SENTENCE|eg|Attentions
        ...     
  )ENGINE=存储引擎 CHARSET=编码方式;
  ```
+ ```
+ mysql中的数据类型
+     1，数值型：整数型，浮点数，定点数；
+     2，字符串类型
+     3，日期时间类型
+ ```
 Action|SQL SENTENCE|eg|Attentions
 |:-:|:-:|:-:|:-:|
+查看表|SHOW TABLES|||
+查看表结构|SHOW COLUMN FROM user;|||
 
 
 
