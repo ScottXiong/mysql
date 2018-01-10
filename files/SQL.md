@@ -72,7 +72,7 @@ Action|SQL SENTENCE|eg|Attentions
 - 4，最后删除imooc_user数据表
 ### 约束条件
 约束|作用
-|:-:|:-:|
+|:-|:-|
 unsigned|无符号，无负数，从0开始
 zerofill|零填充，当显示长度不够时可以使用补0的效果填充至指定长度
 NOT NULL|非空约束，也就是插入值的时候这个字段必须要给值
