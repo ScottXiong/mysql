@@ -1,3 +1,7 @@
+### 
+Install|Change Password
+|-:-|-:-|
+PATH="$PATH":/usr/local/mysql/bin |偏好设置中stop mysql server <br>cd /usr/local/mysql/bin/<br> sudo su <br> enter your Mac sudo password <br>./mysqld_safe --skip-grant-tables & <br> 回车后 mysql 会自动重启(偏好设置中 mysql 的状态会变成 running) <br>./mysql <br>SET PASSWORD FOR 'root'@'localhost' = PASSWORD('你的新密码');
 ### mysql服务开启方式（注意以；和\g 结尾）
 ```
 ---method one 暗文登陆----
