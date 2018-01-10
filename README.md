@@ -3,6 +3,8 @@
 - 配置文件：my.cnf
 - [login](https://github.com/ScottXiong/mysql/blob/master/files/login.md)
 - [The way to change the password](https://github.com/ScottXiong/mysql/blob/master/files/changePW.md)
+- [规范](https://github.com/ScottXiong/mysql/blob/master/files/规范.md)
+- [SQL语句]()
 ### 技巧
 - 可以通过help或者\h或者？加上关键字查询手册
 - \c 取消当前命令的执行 eg: `select database() \c`
