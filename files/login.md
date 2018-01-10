@@ -5,8 +5,8 @@
 		<td>Change Passworld</td>
 	</tr>
 	<tr>
-		<td>Before starting your server, you should set the system environment.<br>
-        PATH="$PATH":/usr/local/mysql/bin 7w_kJ%fdTyyh
+		<td>Before starting your server, you should <br>set the system environment.<br>
+        PATH="$PATH":/usr/local/mysql/bin <br>7w_kJ%fdTyyh
 		</td>
 		<td>
 			偏好设置中stop mysql server <br>
