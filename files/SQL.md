@@ -1,5 +1,5 @@
 ### 常用SQL语句和功能
-SQL| 做用
+SQL| 作用
 |:-:|:-:|
 SELECT USER() |得到登录的用户
 SELECT VERSION() |得到MYSQL的版本信息
