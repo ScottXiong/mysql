@@ -46,9 +46,11 @@ Action|SQL SENTENCE|eg|Attentions
  ```
 Action|SQL SENTENCE|eg|Attentions
 |:-:|:-:|:-:|:-:|
-查看表|SHOW TABLES;SHOW FILL TABLES FROM mysql;|||
+查看表|SHOW TABLES;SHOW FILL TABLES FROM/IN mysql;|||
 查看表结构|SHOW COLUMN FROM user;|||
-查看指定表的详细信息|SHOW CREATE TABLE tbl_name;
+查看指定表的详细信息|SHOW CREATE TABLE tbl_name;|||
+查看表结构|DESC tbl_name;DESCRIBE tbl_name;SHOW COLUMNS FROM tbl_name;|DESC imooc_user;||
+
 
 
 
