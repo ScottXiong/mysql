@@ -50,7 +50,7 @@ Action|SQL SENTENCE|eg|Attentions
 查看表结构|SHOW COLUMN FROM user;|||
 查看指定表的详细信息|SHOW CREATE TABLE tbl_name;|||
 查看表结构|DESC tbl_name;DESCRIBE tbl_name;SHOW COLUMNS FROM tbl_name;|DESC imooc_user;||
-删除数据表|DROP TABLE [IF EXISTS] tbl_name;|DROP TABLE IF EXISTS imooc_users;|再次执行不会报错，可以通过show warning来查看|
+删除数据表|DROP TABLE [IF EXISTS] tbl_name;|DROP TABLE IF EXISTS imooc_users;|再次执行不会报错，可以通过show warnings来查看|
 
 
 
