@@ -15,7 +15,10 @@ sex ENUM('男','女','保密')
 )ENGINE=INNODB CHARSET=UTF8;
 
 INSERT imooc_user(id,username,password,email,age,card,tel,salary,married,addr,sex)
-VALUES(1,'Scott','123456','github@163.com',18,'420624185855555554','18325525513','深圳','男')；
+VALUES(1,'Scott','123456','github@163.com',18,'420624185855555554','18325525513',88888.25,1,'深圳','男');
 
+INSERT imooc_user(id,username,password,email,age,card,tel,salary,married,addr,sex)
+VALUES(-1,'Amanda','123456','github@163.com',18,'420624185855555554','18325525513',88888.25,1,'深圳','女');
 
+select * from imooc_user;
 ```
