@@ -51,6 +51,11 @@ Action|SQL SENTENCE|eg|Attentions
 查看指定表的详细信息|SHOW CREATE TABLE tbl_name;|||
 查看表结构|DESC tbl_name;DESCRIBE tbl_name;SHOW COLUMNS FROM tbl_name;|DESC imooc_user;||
 删除数据表|DROP TABLE [IF EXISTS] tbl_name;|DROP TABLE IF EXISTS imooc_users;|再次执行不会报错，可以通过show warnings来查看|
+### 要求
+- 1，查看当前数据库下的数据表
+- 2，查看imooc_user表的详细信息；
+- 3，通过三种方式查看指定数据表的表结构
+- 4，最后删除imooc_user数据表
 
 
 
