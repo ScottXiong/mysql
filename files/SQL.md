@@ -11,3 +11,4 @@ Action|SQL SENTENCE|eg|Attentions
 |:-:|:-:|:-:|:-:|
 创建数据库|CREATE {DATABASE\|SCHEMA} db_name;CREATE DATABASE IF NOT EXISTS test1|create database test1;create schema test2;|数据库名最好有意义，名称不要含特殊字符或mysql关键字create database \`database\`
 查询当前数据库|SHOW DATABASES;SHOW SCHEMAS;|||
+查看上个语句产生的警告|SHOW WARNINGS;|||
