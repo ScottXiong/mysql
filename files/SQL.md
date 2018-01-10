@@ -28,5 +28,20 @@ Action|SQL SENTENCE|eg|Attentions
 删除当前的数据库|DROP DATABASE db_name;|||
 如果存在则删除数据库|DROP DATABASE IF EXISTS test2;|||
 
+### 数据表相关操作
+数据表是一个2维的行和列组成，和excel是一样的；数据表是数据库最重要的组成部分，数据是保存在数据表中的；数据表由行（row）和列（column）来组成；表要求唯一，不要包含特殊字符，最好含义明确；
+ ```
+ 创建表的语法规范
+ CREATE TABLE [IF NOT EXISTS] tbl_name(
+    字段名称 字段类型 [完整性约束条件]，
+    字段名称 字段类型 [完整性约束条件]，
+       ...     
+ )ENGINE=存储引擎 CHARSET=编码方式;
+ ```
+Action|SQL SENTENCE|eg|Attentions
+|:-:|:-:|:-:|:-:|
+
+
+
 
 
