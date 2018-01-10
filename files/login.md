@@ -6,7 +6,7 @@
 	</tr>
 	<tr>
 		<td>Before starting your server, you should set the system environment.<br>
-        PATH="$PATH":/usr/local/mysql/bin
+        PATH="$PATH":/usr/local/mysql/bin 7w_kJ%fdTyyh
 		</td>
 		<td>
 			偏好设置中stop mysql server <br>
