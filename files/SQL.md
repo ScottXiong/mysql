@@ -19,6 +19,7 @@ Action|SQL SENTENCE|eg|Attentions
 打开指定的数据库|USE db_name;|||
 得到当前打开的数据库|SELECT DATABASE();\|SCHEMA();|||
 删除当前的数据库|DROP DATABASE db_name;|||
+如果存在则删除数据库|DROP DATABASE IF EXISTS test2;|||
 
 
 
