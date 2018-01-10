@@ -37,6 +37,20 @@ Action|SQL SENTENCE|eg|Attentions
     字段名称 字段类型 [完整性约束条件]，
        ...     
  )ENGINE=存储引擎 CHARSET=编码方式;
+ 
+CREATE TABLE IF NOT EXISTS imooc_user(
+id INT,
+username VARCHAR(20),
+password CHAR(32),
+email VARCHAR(50),
+age TINYINT,
+card CHAR(18),
+tel CHAR(11),
+salary FLOAT(8,2),
+married TINYINT(1),
+addr VARCHAR(100),
+sex ENUM('男','女','保密')
+)ENGINE=INNODB CHARSET=UTF8;
  ```
  ```
  mysql中的数据类型
