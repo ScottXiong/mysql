@@ -15,7 +15,7 @@
 			enter your Mac sudo password <br>
 			./mysqld_safe --skip-grant-tables &  <br>
 			回车后 mysql 会自动重启(偏好设置中 mysql 的状态会变成 running) <br>
-			./mysql <br>SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new password');<br>
+			./mysql <br>SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new password');
 			
 		</td>
 	</tr>
