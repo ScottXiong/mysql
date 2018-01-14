@@ -7,6 +7,7 @@ CREATE TABLE regular_sentences(
  last_modify DATETIME,
  who CHAR(20)
 );
+
 INSERT regular_sentences(tag,content,creat_time,last_modify,who) 
 Values('by','Walmart Canada Import Information (for Domestic items \'Imported for\' for Direct Imports \'Imported by\'), which will be used for your items?',NOW(),NOW(),'Scott');
 
