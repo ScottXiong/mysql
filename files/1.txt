@@ -1,0 +1,32 @@
+CREATE TABLE `case1` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `job_number` varchar(15) NOT NULL,
+  `brand` varchar(20) NOT NULL,
+  `buyer_department` varchar(50),
+  `vendor` varchar(30) NOT NULL,
+  `email` char(100) DEFAULT NULL,
+  `country` char(20) DEFAULT NULL,
+  `addr` char(100) DEFAULT NULL,
+  `company` char(50) DEFAULT NULL,
+  `creat_time` datetime DEFAULT NULL,
+  `last_modify` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
+
+
+
+
+CREATE TABLE `regular_sentences` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `heading` varchar(30) NOT NULL DEFAULT 'I am the header',
+  `tag` varchar(50) DEFAULT NULL,
+  `content` mediumtext,
+  `creat_time` datetime DEFAULT NULL,
+  `last_modify` datetime DEFAULT NULL,
+  `who` char(20) DEFAULT NULL,
+  `n` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
+
+
+INSERT case1(job_number,brand,buyer_department,vendor,email,country,addr,company,creat_time) values(‘C171198_GEM’,’VAL’,’David Farmer(D07)’,’tina’,’example@gmail.com’,’USA’,’罗湖区45号’,’DSL Holding Ltd.’,now());
